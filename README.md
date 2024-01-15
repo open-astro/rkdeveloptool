@@ -21,5 +21,5 @@ make
 ```
 ### Run help tool commands
 ```
-./ rkdeveloptool -h
+./rkdeveloptool -h
 ```
