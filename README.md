@@ -28,6 +28,6 @@ make
 >  You will need a USB Type-C to USB-A 2.0 Male cable and no power cable connected to boot the ASIAIR into Loader mode.
 > 1. First, plug the USB-C end into the ASIAIR
 > 2. Hold the Reset button down
-> 3. Now plug in the USB-A 2.0 Male cable to your linux computer
+> 3. Now plug in the USB-A 2.0 Male cable to your Linux computer and then let go of the reset button. The lights should not be lit up if done properly.
 
 
