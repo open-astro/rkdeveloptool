@@ -23,5 +23,11 @@ make
 ```
 ./rkdeveloptool -h
 ```
+
 > [!TIP]
->  You will need a USB Type-C to USB-A 2.0 Male cable and no power cable connected to boot the ASIAIR into Loader mode
+>  You will need a USB Type-C to USB-A 2.0 Male cable and no power cable connected to boot the ASIAIR into Loader mode.
+> 1. First plug the USB-C end into the ASIAIR
+> 2. Fold the Reset button down
+> 3. No plug in the USB-A 2.0 Male cable to your linux computer
+
+
