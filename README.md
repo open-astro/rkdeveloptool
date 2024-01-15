@@ -19,7 +19,7 @@ automake --add-missing
 ./configure
 make
 ```
-### Run tool commands
+### Run help tool commands
 ```
-rkdeveloptool -h
+./ rkdeveloptool -h
 ```
