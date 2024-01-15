@@ -11,6 +11,7 @@ git clone https://github.com/open-astro/rkdeveloptool.git
 ```	
 ### Change the directory to rkdevloptool and run commands
 ```
+cd rkdeveloptool
 aclocal
 autoreconf -i
 autoheader
