@@ -1,8 +1,9 @@
-## rkdeveloptool gives you a simple way to read/write rockusb device.let's start.
+## rkdeveloptool
+Used to pull images and push images on the ASIAIR Mini/Plus RockChip
 
 ### compile and install
 ```	
-sudo apt-get install libudev-dev libusb-1.0-0-dev dh-autoreconf'
+sudo apt-get install libudev-dev libusb-1.0-0-dev dh-autoreconf
 ```
 
 ### go into root of rkdeveloptool
