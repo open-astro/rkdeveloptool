@@ -15,4 +15,6 @@ automake --add-missing
 make
 ```
 ### Run tool commands
+```
 rkdeveloptool -h
+```
