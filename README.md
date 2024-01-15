@@ -1,7 +1,7 @@
 ## rkdeveloptool
 Used to pull images and push images on the ASIAIR Mini/Plus RockChip
 
-### Install the default apps to compile application
+### Install the default apps to compile the application
 ```	
 sudo apt-get install libudev-dev libusb-1.0-0-dev dh-autoreconf build-essential git
 ```
@@ -23,3 +23,5 @@ make
 ```
 ./rkdeveloptool -h
 ```
+> [!TIP]
+>  You will need a USB Type-C to USB-A 2.0 Male cable and no power cable connected to boot the ASIAIR into Loader mode
