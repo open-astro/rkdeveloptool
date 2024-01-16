@@ -39,7 +39,7 @@ sudo ./rkdeveloptool rfi
 If you done properly we should see the following information<br>
 <img src='images/sector-size.jpg' width='400'>
 
-Now we need to backup the image. This command is telling the system to ReadLBA, the 0 means first block, the 61079552 is our complete sector size and the image.bin is the backup for our ASIAIR
+Now we need to backup the image. This command is telling the system to us 'rl' (ReadLBA), the 0 means first block, the 61079552 is our complete sector size and the image.bin is the backup for our ASIAIR to a file.
 ```
 sudo ./rkdeveloptool rl 0 61079552 image.bin
 ```
