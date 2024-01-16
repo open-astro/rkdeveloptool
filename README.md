@@ -28,6 +28,18 @@ make
 >  You will need a USB Type-C to USB-A 2.0 Male cable and no power cable connected to boot the ASIAIR into Loader mode.
 > 1. First, plug the USB-C end into the ASIAIR
 > 2. Hold the Reset button down
-> 3. Now plug in the USB-A 2.0 Male cable to your Linux computer and then let go of the reset button. The lights should not be lit up if done properly.
+> 3. Now plug in the USB-A 2.0 Male cable to your Linux computer and then let go of the reset button. The lights should not be lit up if done properly and the system will be in Loader mode.<br>
+><img src='images/asiair-cable.jpg' width='400'>
 
+### Backing up the ASIAIR device
+First we want to figure out how many sectors our device has. To check it we need to run the following command
+```
+sudo ./rkdeveloptool rfi
+```
+If you done properly we should see the following information<br>
+<img src='images/sector-size.jpg' width='400'>
 
+Now we need to backup the image. This command is telling the system to ReadLBA, the 0 means first block, the 61079552 is our complete sector size and the image.bin is the backup for our ASIAIR
+```
+sudo ./rkdeveloptool rl 0 61079552 image.bin
+```
